@@ -1,0 +1,61 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.5em;
+  height: max-content;
+  margin: 1em 0;
+}
+
+.img {
+  height: 200px;
+  border-radius: 1em;
+  cursor: pointer;
+  margin-bottom: 1em;
+  align-self: center;
+  width: 90%;
+}
+
+.all {
+  background: url('../../assets/beers.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.random {
+  background: url('../../assets/random-beer.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.new {
+  background: url('../../assets/new-beer.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card h2 {
+  text-indent: 2em;
+}
+
+.card .description {
+  padding-left: 2em;
+  line-height: 1.3em;
+  width: 90%;
+}
+
+@media (min-width: 1200px) {
+  .card .description {
+    padding-left: 10%;
+    margin-bottom: 2em;
+  }
+
+  .card h2 {
+    text-indent: 4em;
+    margin: 1em 0;
+  }
+
+  .card:first-child {
+    margin-top: 3em;
+  }
+}

@@ -1,0 +1,41 @@
+.content form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+form > label {
+    color: rgb(172, 169, 169);
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin-bottom: .5em;
+    height: 2.5em;
+    padding: 0 1em;
+    border-radius: 2em;
+    border: none;
+    background-color: rgb(88, 88, 88);
+    color: rgb(218, 165, 50);
+    font-weight: bold;
+}
+
+form input:focus {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+
+form button {
+    font-family: inherit;
+    border: none;
+    background-color: gray;
+    margin-top: .5em;
+    padding: .3em 1em;
+    color: white;
+    border-radius: .25em;
+    font-weight: bold;
+}

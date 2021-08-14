@@ -1,0 +1,18 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    background-color: rgb(212, 138, 77);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    margin-top: 3.5em;
+    z-index: 5;
+}
+
+nav i {
+    font-size: 2em;
+    color: white;
+}

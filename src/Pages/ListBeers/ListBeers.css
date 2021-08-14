@@ -1,0 +1,48 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+.list-item {
+    display: flex;
+    align-items: center;
+    padding: 1em .5em 1em 2em;
+    border-bottom: rgb(90, 89, 89) 2px solid;
+}
+
+.list-item .img {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(233, 164, 15, 0.5);
+    border-radius: 50%;
+    box-shadow: 0 0 4px 4px rgba(233, 164, 15, 0.5);
+    overflow: visible;
+}
+
+.img > img {
+    height: 150px;
+}
+
+.list-description {
+    padding: 2em 1em 0 0;
+    height: 200px;
+    line-height: 1.3em;
+    margin-left: 150px;
+    overflow: scroll;
+}
+
+.list-description span {
+    font-weight: bold;
+}
+.list-description h4 {
+    color: rgb(202, 200, 200);
+    margin: .5em 0;
+}
+
+.list-description p {
+    margin-top: 2em;
+}
